@@ -6,6 +6,7 @@ Official implementation of **SincDualFormer** and **SR-BandMix** for Motor Image
 > IEEE Journal of Biomedical and Health Informatics (J-BHI), 2026.
 
 ---
+Equal Contribution: Hieu M. Pham and Trung M. Pham contributed equally to this work.
 
 ## 🏆 SOTA Comparison
 
