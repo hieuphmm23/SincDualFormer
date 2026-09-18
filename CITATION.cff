@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "If you use SincDualFormer or SR-BandMix in your research, please cite our paper."
+message: "If you use SincDualFormer or SR-BandMix in your research, please cite the article below."
 
 title: "SincDualFormer"
-type: software
 
 authors:
 
