@@ -3,10 +3,12 @@
 Official implementation of **SincDualFormer** and **SR-BandMix** for Motor Imagery EEG decoding.
 
 > **SincDualFormer: A Dual-Scale Sinc-Filterbank Transformer Model with SR-BandMix Augmentation for Motor Imagery BCI**
-> IEEE Journal of Biomedical and Health Informatics (J-BHI), 2026.
+> *IEEE Journal of Biomedical and Health Informatics (J-BHI)*, 2026.
+> **DOI:** [10.1109/JBHI.2026.3727259](https://doi.org/10.1109/JBHI.2026.3727259)
 
 ---
-Equal Contribution: Hieu M. Pham and Trung M. Pham contributed equally to this work.
+
+**Equal Contribution:** Hieu M. Pham and Trung M. Pham contributed equally to this work.
 
 ## 🏆 SOTA Comparison
 
@@ -256,7 +258,7 @@ The default SR-BandMix configuration used in the main experiments is:
 SR-BandMix combines:
 
 1. **Segmentation–Reconstruction (SR)** in the time domain using same-class training trials.
-2. **Fine-grained BandMix** in the frequency domain over the MI-relevant 8–30 Hz region.
+2. **Fine-grained BandMix** in the frequency domain over the MI-relevant **8–30 Hz** region.
 
 ---
 
@@ -277,3 +279,25 @@ Dataset-specific settings are kept explicit rather than automatically unified ac
 ## Code Availability
 
 The source code supporting this work is publicly available in this repository.
+
+---
+
+## Citation
+
+If you find **SincDualFormer** or **SR-BandMix** useful in your research, please consider citing our paper:
+
+```bibtex
+@ARTICLE{11664871,
+  author={Pham, Hieu M. and Pham, Trung M. and Nguyen, Tuong H. and Nguyen, Long S. T. and Nguyen, Vi K. and Nguyen, Long H. K. and Vo, Quynh T. N. and Ha, Huong T. T. and Quan, Tho T.},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  title={Towards Balanced Bias-Variance With SincDualFormer: A Dual-Scale Sinc-Filterbank Transformer Model With SR-BandMix Augmentation for Motor Imagery BCI},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Modeling;Electroencephalography;Brain-computer interfaces;Strontium;Transformers;Convolution;Motors;Accuracy;Filtering;Frequency;Brain-computer interfaces (BCI);motor imagery;SincNet;CNNs;Transformer;data augmentation},
+  doi={10.1109/JBHI.2026.3727259}
+}
+```
+
+Hieu M. Pham and Trung M. Pham contributed equally to this work.
