@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use SincDualFormer or SR-BandMix in your research, please cite our paper."
+
+title: "SincDualFormer"
+type: software
+
+authors:
+
+* family-names: "Pham"
+  given-names: "Hieu M."
+* family-names: "Pham"
+  given-names: "Trung M."
+* family-names: "Nguyen"
+  given-names: "Tuong H."
+* family-names: "Nguyen"
+  given-names: "Long S. T."
+* family-names: "Nguyen"
+  given-names: "Vi K."
+* family-names: "Nguyen"
+  given-names: "Long H. K."
+* family-names: "Vo"
+  given-names: "Quynh T. N."
+* family-names: "Ha"
+  given-names: "Huong T. T."
+* family-names: "Quan"
+  given-names: "Tho T."
+
+preferred-citation:
+type: article
+authors:
+- family-names: "Pham"
+given-names: "Hieu M."
+- family-names: "Pham"
+given-names: "Trung M."
+- family-names: "Nguyen"
+given-names: "Tuong H."
+- family-names: "Nguyen"
+given-names: "Long S. T."
+- family-names: "Nguyen"
+given-names: "Vi K."
+- family-names: "Nguyen"
+given-names: "Long H. K."
+- family-names: "Vo"
+given-names: "Quynh T. N."
+- family-names: "Ha"
+given-names: "Huong T. T."
+- family-names: "Quan"
+given-names: "Tho T."
+title: "Towards Balanced Bias-Variance With SincDualFormer: A Dual-Scale Sinc-Filterbank Transformer Model With SR-BandMix Augmentation for Motor Imagery BCI"
+journal: "IEEE Journal of Biomedical and Health Informatics"
+year: 2026
+doi: "10.1109/JBHI.2026.3727259"
